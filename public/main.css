@@ -22,10 +22,10 @@ body {
     flex-direction: column;
 }
 
-.name {
+.centered > .name {
     font-family: 'Bebas Neue', 'Bangers';
     font-size: 1.25em;
-    width: 100vw !important;
+    width: 100vw;
     text-align: center;
     overflow: hidden;
 }
@@ -84,7 +84,7 @@ a {
 }
 
 .demo-video {
-    width: 100vw;
+    width: 100%;
 }
 
 .intro-text {
@@ -93,7 +93,7 @@ a {
 }
 
 .profile-picture {
-    width: 100vw;
+    width: 100%;
 }
 
 section {
