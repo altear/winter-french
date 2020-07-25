@@ -1,0 +1,148 @@
+
+@import url('assets/fonts/Roboto-Regular.ttf');
+
+@font-face { 
+    font-family: Bangers;
+    src: url('assets/fonts/Bangers-Regular.ttf');
+}
+
+@font-face { 
+    font-family: Bebas Neue;
+    src: url('assets/fonts/BebasNeue-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-family: 'Bebas Neue', 'Bangers';
+    font-size: 1.25em;
+    width: 100vw !important;
+    text-align: center;
+    overflow: hidden;
+}
+
+.name:before,
+.name:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 5px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.name:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.name:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+header, footer {
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8em;
+}
+
+.media-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    color: black;
+}
+
+.light > a {
+    color: white;
+}
+
+.icon-block {
+    width: 24px;
+    height: 24px;
+    background-color: black;
+}
+
+.light > .icon-block {
+    color: #fff;
+}
+
+.demo-video {
+    width: 100vw;
+}
+
+.intro-text {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.profile-picture {
+    width: 100vw;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.patreon-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.patreon-wrapper > img {
+    width: 30vw;
+}
+
+.patreon-wrapper > div {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+footer {
+    /* height: 10vh; */
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centered > div {
+    margin-top: 10px;
+    width: calc(34px * 5);
+}
+
+.signature {
+    padding-top: 10px;
+    padding-bottom: 2px;
+    font-size: 0.7em;
+}
+
+.footer-email {
+    text-align: center;
+}
