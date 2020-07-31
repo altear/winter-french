@@ -136,7 +136,9 @@ a {
 }
 
 .profile {
-    height: max(30vw, 130px);
+    /* height: max(30vw, 130px); */
+    min-height: 140px;
+    height: 30vw;
     max-height: 240px;
     padding-right: 10px;
 }
