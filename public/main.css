@@ -136,15 +136,15 @@ a {
 }
 
 .profile {
-    height: max(30vw, 120px);
-    max-height: 200px;
+    height: max(30vw, 130px);
+    max-height: 240px;
     padding-right: 10px;
 }
 
 .profile::before {
     display: inline-block;
     content: '';
-    shape-outside: circle(min(100px, 15vw) at calc(min(100px, 15vw) + 40px) min(100px, 15vw));
+    shape-outside: circle(min(100px, 15vw) at calc(min(100px, 15vw) + min(40px, 5vw)) min(100px, 15vw));
     float: left;
     width: 100%;
     height: 100%;
